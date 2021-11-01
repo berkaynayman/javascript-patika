@@ -19,3 +19,24 @@ const USERS = [
 const USERS_ACTIVE = USERS.filter(user => user.isActive)
 
 console.log(USERS_ACTIVE)
+
+
+const person = [{
+    name: "Adem",
+    age: 25,
+    languages: ["JavaScript", "CSS"],
+  },
+  {
+    name: "Oğuz",
+    age: 33,
+    languages: ["Java", "HTML"],
+    }
+  ];
+
+//Soru 1: Yukarıdaki diziyi kullanarak filter() metodu ile yaşı 30'dan büyük olan kişiyi getirin.
+let SR1 = person.filter( item => item.age > 30)
+console.log(SR1)
+
+//Soru 2: Yukarıdaki diziyi kullanarak filter() metodu ile JavaScript bilen kişiyi getirin.
+let SR2 = person.filter( item => item.languages.includes("JavaScript"))
+console.log(SR2)
