@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="dogumtarihi">
+    <button onclick="valid()">gönder</button>
+    <script>
+        function valid(){
+            try{
+                if(document.querySelector('#dogumtarihi').value == ""){
+                    throw "doğum tarihini boş geçemezsiniz"
+                };
+            }catch(err){
+                alert(err)
+            }
+        }
+    </script>
+</body>
+</html>
