@@ -1,0 +1,8 @@
+{
+    "userName"  : "berkaynayman",
+    "password"  : 1234,
+    "serverIP"  : "32.2.3.4",
+    "serverName": "google.com",
+    "isAuth"    : true,
+    "IDs"       : [1, 2, 3, 4, 5]
+}
